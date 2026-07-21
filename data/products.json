@@ -1,0 +1,42 @@
+[
+  {
+    "id": "p1",
+    "name": "OVERSIZE HOODIE «NOIR»",
+    "price": 6900,
+    "category": "худи",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=1200&q=80",
+    "description": "Плотный флис 380 г/м², двойная строчка, посадка oversize. Тираж ограничен.",
+    "sold": false
+  },
+  {
+    "id": "p2",
+    "name": "LONGSLEEVE «ASH»",
+    "price": 3400,
+    "category": "лонгсливы",
+    "sizes": ["XS", "S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200&q=80",
+    "description": "Хлопок 220 г/м², рукав реглан, минималистичный принт на груди.",
+    "sold": false
+  },
+  {
+    "id": "p3",
+    "name": "TEE «STATIC»",
+    "price": 2200,
+    "category": "футболки",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=1200&q=80",
+    "description": "Плотный хлопок, боксовый крой, шелкография.",
+    "sold": true
+  },
+  {
+    "id": "p4",
+    "name": "CARGO PANTS «FIELD»",
+    "price": 7800,
+    "category": "брюки",
+    "sizes": ["M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=1200&q=80",
+    "description": "Плотный твил, накладные карманы, регулируемый низ штанины.",
+    "sold": false
+  }
+]
