@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COLORINZO — каталог</title>
+<meta name="description" content="Авторская одежда COLORINZO. Ограниченные тиражи, заказ через Telegram.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="marquee"><span id="marqueeText"></span></div>
+  <div class="header-row">
+    <div class="brand">COLORINZO<span class="dot">.</span></div>
+    <button class="cart-btn" id="adminLink" onclick="location.href='admin.html'">АДМИН</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-noise-tag">DROP 01</div>
+  <h1>НОСИ<br><span class="stroke">СВОЁ</span></h1>
+  <p>Малые тиражи, плотные ткани, заказ напрямую в Telegram — без посредников и наценок.</p>
+</section>
+
+<nav class="filters" id="filters"></nav>
+
+<main class="grid" id="grid">
+  <div class="empty-state">Загрузка каталога…</div>
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 COLORINZO</span>
+  <span>ДОСТАВКА ПО РФ И СНГ</span>
+</footer>
+
+<!-- bottom sheet -->
+<div class="sheet-overlay" id="overlay"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-handle"></div>
+  <button class="sheet-close" id="sheetClose">×</button>
+  <div class="sheet-media"><img id="sheetImg" src="" alt=""></div>
+  <div class="sheet-content">
+    <div class="sheet-cat" id="sheetCat"></div>
+    <div class="sheet-name" id="sheetName"></div>
+    <div class="sheet-price" id="sheetPrice"></div>
+    <p class="sheet-desc" id="sheetDesc"></p>
+    <div class="size-row" id="sizeRow"></div>
+    <button class="btn-primary" id="orderBtn">Заказать в Telegram</button>
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
